@@ -1,0 +1,19 @@
+name: py4sci
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - requests
+  - rdkit
+  - seaborn
+  - numpy
+  - scikit-learn
+  - ipywidgets
+  - sympy
+  - setuptools
+  - wheel
+  - xarray
+  - py3dmol
+prefix: /home/rebelford/miniconda3/envs/py4sci
