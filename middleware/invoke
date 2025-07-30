@@ -58,6 +58,8 @@ if [ ! -d ${userDirectory} ]; then
   copyFileType "ism" ${toolDirectory} ${userDirectory}
   copyFileType "jpeg" ${toolDirectory} ${userDirectory}
   copyFileType "png" ${toolDirectory} ${userDirectory}
+  copyFileType "mp4" ${toolDirectory} ${userDirectory}
+  copyFileType "svg" ${toolDirectory} ${userDirectory}
 
   # Copy all other file as symlinks, do not override alreadying
   # exisiting hard copied files.  These files will read only and
