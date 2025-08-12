@@ -70,7 +70,7 @@ fi
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t datachem2025olcc \
+/usr/bin/invoke_app "$@" -t datachemolcc \
                         -C "start_jupyterlab ${userDirectory}/datachem2025olcc.ipynb" \
                         -u anaconda-7 \
                         -r none \
