@@ -40,8 +40,8 @@ toolDirectory=$(realpath ${middlewareDirectory}/..)
 revision=$(basename $(realpath ${toolDirectory}))
 
 # Set the directory to copy the symlinks for the jupyter files. The directory
-# containing the links will be ${HOME}/py4sci
-userDirectory=${HOME}/py4sci/${revision}
+# containing the links will be ${HOME}/datachem2025olcc
+userDirectory=${HOME}/datachem2025olcc/${revision}
 
 # If the user directory does not exist then create the user directory.
 if [ ! -d ${userDirectory} ]; then
